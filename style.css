@@ -27,6 +27,23 @@ nav{
 	
 	
 }
+.home{
+	color:#000000;
+}
+.pay{
+		color:#000000;
+
+}
+.con{
+		color:#000000;
+
+	
+}
+.gal{
+		color:#000000;
+
+	
+}
 nav a.home:hover{
 			color: red;
 				
