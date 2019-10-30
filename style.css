@@ -89,6 +89,7 @@ main{
 	
 }
 nav ul li{
+	margin:0;
 	float: left;
 	list-style:none;
 	padding:32;
