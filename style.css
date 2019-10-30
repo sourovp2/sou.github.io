@@ -91,6 +91,7 @@ main{
 nav ul li{
 	margin:0;
 	float: left;
+	font-size:auto;
 	list-style:none;
 	padding:32;
 	text-align:center;
