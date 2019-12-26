@@ -96,7 +96,38 @@ main{
 	 
 	
 }
-
+button a background-image:url(pay.png);
+					  background-repeat: no-repeat;
+					  background-size: cover;
+					  color: #000;
+}:{
+		margin:0;
+	background-image:url(button.png);
+	  border-style: dotted;
+		  border-bottom-color:#00ff00 ;
+		  border-left-style:double;
+		  border-left-width: thick;
+		  border-right-style:double;
+		  border-right-width: thick;
+		  border-top-style: inherit;
+		  border-left-color:#33ffff ;
+		  border-right-color:#99cc33 ;
+		  border-bottom-style: inherit;
+		   border-radius: 25px;
+		   font-size: 18px;
+		   color: #fff;
+	font-weight:bold;
+	background-position: center;
+	  background-repeat: no-repeat;
+					  background-size: cover;
+	
+}
+button a:hover{
+				background-image:url(pay.png);
+					  background-repeat: no-repeat;
+					  background-size: cover;
+					  color: #000;
+}
 section h3{
 			font-size: 35px;
 			font-weight:600;
