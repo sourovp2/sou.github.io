@@ -1,185 +1,152 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese');
-
-
+@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i&display=swap&subset=latin-ext');
 
 *{
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
-
-header{
-		width: 100%;
-		height: 100vh;
-		background-image:url(BACK.jpg);
-		background-repeat: no-repeat;
-		background-size: cover;
+body{
+  font-family: montserrat;
+  background: url(bg2.jpg) ;
+            background-size: cover;
+    width: 100%;
+    height: 100vh;
 }
 nav{
-	width: 100%;
-	height: 8vh;
-	background: yellow;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	font-family: 'Lobster', cursive;
-	
-	
+  background: #0082e6;
+  height: 80px;
+  width: 100%;
 }
-nav a.home:hover{
-			color: red;
-				
-			
+label.logo{
+  size: 45px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+  margin:4%;
+        
 }
-nav a.pay:hover{
-			color: red;
+nav ul{
+  float: right;
+  margin-right: 20px;
 }
-nav a.gal:hover{
-			color: red;
-				
-			
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
 }
-nav a.con:hover{
-			color: red;
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  font-family: 'Patua One', cursive;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
 }
+a.active,a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #BFC09D;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+section{
+  }
 
-nav a.btntwo:hover{
-			color: red;
-			font-size:20;
-}
-nav .logo{
-	margin:5%;
-	       width:9%;
-		   align-items:center;
-		    border-radius: 25px;
-		   background-position:center;
-		  border-style: dotted;
-		  border-bottom-color:#00ff00 ;
-		  border-left-style:double;
-		  border-left-width: thick;
-		  border-right-style:double;
-		  border-right-width: thick;
-		  border-top-style: inherit;
-		  border-left-color:#33ffff ;
-		  border-right-color:#000 ;
-		  border-bottom-style: inherit;
-		  
-}
-nav .manu{
-	    width: 50%;
-		display: flex;
-		justify-content: space-between;
-		font-size-adjust: auto;
-		
-}
-
-nav .manu a{
-	margin-right:11%;
-	padding:0%;
-	width: 100px;
-	text-decoration: none;
-	font-size: 17px;
-	text-align: center;
-	
-	
-	
-	
-}
-main{
-	 width: ;
-	 height:88vh ;
-	 display: flex;
-	 justify-content:center;
-	 align-items:center;
-	 text-align:center;
-	 color:#00ffff;
-	 
-	
-}
-
-section h3{
-			font-size: 35px;
-			font-weight:600;
-			letter-spacing:5px;
-			text-shadow: 1px 1px 2px white;
-}
-section h1{
-			margin: 30px 0px 20px 0px;
-			font-size: 48px;
-			font-weight:900;
-			letter-spacing:10px;
-			text-shadow: 5px 5px 4px white;
-			text-transform:uppercase;
-}
-section a{
-			padding:12px 30px;
-			border-radius: 4px;
-			outline:none;
-			text-transform:uppercase;
-			font-size:23px;
-			font-weight:0;
-			text-decoration: none;
-			letter-spacing:15px;
-			color:#cccccc;
-}
-section .btnone{
-	margin:0;
-	  border-style: dotted;
-		  border-bottom-color:#00ff00 ;
-		  border-left-style:double;
-		  border-left-width: thick;
-		  border-right-style:double;
-		  border-right-width: thick;
-		  border-top-style: inherit;
-		  border-left-color:#33ffff ;
-		  border-right-color:#99cc33 ;
-		  border-bottom-style: inherit;
-		   border-radius: 25px;
-		   font-size: 32px;
-	font-weight:bold;
-	
-
-	
-}
-section .btnone:hover{
-	                  background-image:url(pay.png);
-					  background-repeat: no-repeat;
-					  background-size: cover;
-					  color: #000;
-}
-
-	
 section .btone{
-	margin:0;
-	  border-style: dotted;
-		  border-bottom-color:#00ff00 ;
-		  border-left-style:double;
-		  border-left-width: thick;
-		  border-right-style:double;
-		  border-right-width: thick;
-		  border-top-style: inherit;
-		  border-left-color:#33ffff ;
-		  border-right-color:#99cc33 ;
-		  border-bottom-style: inherit;
-		   border-radius: 25px;
-		   font-size: 12px;
-	font-weight:bold;
-	letter-spacing:5px;
-	color:#fff;
-	
+  margin-left:2%;
+    border-style: dotted;
+      border-bottom-color:#00ff00 ;
+      border-left-style:double;
+      border-left-width: thick;
+      border-right-style:double;
+      border-right-width: thick;
+      border-top-style: inherit;
+      border-left-color:#33ffff ;
+      border-right-color:#99cc33 ;
+      border-bottom-style: inherit;
+       border-radius: 35px;
+       font-size: 18px;
+  font-weight:bold;
+  letter-spacing:8px;
+  color:#fff;
+  
 
-	
+  
 }
 section .btone:hover{
-	                  background-image:url(pay.png);
-					  background-repeat: no-repeat;
-					  background-size: cover;
-					  color: #000;
-					  font-size: 16px;
+                    background-image:url(pay.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #000;
+            font-size: 18px;
 }
 
-	
-
-
-
+h1{
+    color:#00FF00;
+    font-family: 'Merriweather', serif;
+    text-align:center;
+    text-transform: uppercase;
+    text-shadow:5px 5px 3px red;
+      
+    
+}
+font{
+    color:#fff;
+    
+    text-align:center;
+    font-family: 'Merriweather', serif;
+    text-shadow:5px 5px 3px red;
+      
+}  
 
