@@ -8,6 +8,7 @@
   list-style: none;
   box-sizing: border-box;
 }
+
 body{
   font-family: montserrat;
   background: url(bg2.jpg) ;
@@ -17,16 +18,28 @@ body{
 }
 nav{
   background: #0082e6;
-  height: 80px;
+  height: 85px;
   width: 100%;
 }
 label.logo{
   size: 45px;
-  line-height: 80px;
-  padding: 0 100px;
+  line-height: 70px;
+  padding: 20px 30px;
   font-weight: bold;
-  margin:4%;
+  margin:2%;
+  color: #fff;
+  font-family: 'Patua One', cursive;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-style: oblique;
+
+
         
+}
+label img{
+          height: 97%;
+          width: 8%;
+
 }
 nav ul{
   float: right;
