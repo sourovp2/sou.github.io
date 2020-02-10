@@ -180,6 +180,8 @@ font{
   letter-spacing:8px;
   color:#fff;
   background-image:url(button.png);
+  background-size:auto;
+  background-repeat: no-repeat;
   
   }
 
