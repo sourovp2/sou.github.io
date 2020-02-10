@@ -164,6 +164,8 @@ font{
 }  
 .plo{
           
+    
+  margin-left:2%;
     border-style: dotted;
       border-bottom-color:#00ff00 ;
       border-left-style:double;
@@ -175,11 +177,9 @@ font{
       border-right-color:#99cc33 ;
       border-bottom-style: inherit;
        border-radius: 35px;
-       font-size: 23px;
+       font-size: 18px;
   font-weight:bold;
-  letter-spacing:5px;
-  color:#fff;
-  text-transform: uppercase;
-  
-  }
-
+  letter-spacing:8px;
+  color:#fff
+    
+    }
