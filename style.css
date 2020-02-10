@@ -175,13 +175,11 @@ font{
       border-right-color:#99cc33 ;
       border-bottom-style: inherit;
        border-radius: 35px;
-       font-size: 18px;
+       font-size: 23px;
   font-weight:bold;
-  letter-spacing:8px;
+  letter-spacing:5px;
   color:#fff;
-  background-image:url(button.png);
-  background-size:auto;
-  background-repeat: no-repeat;
+  text-transform: uppercase;
   
   }
 
