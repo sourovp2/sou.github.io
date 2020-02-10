@@ -162,4 +162,23 @@ font{
     text-shadow:5px 5px 3px red;
       
 }  
+.plo{
+          margin-left:2%;
+    border-style: dotted;
+      border-bottom-color:#00ff00 ;
+      border-left-style:double;
+      border-left-width: thick;
+      border-right-style:double;
+      border-right-width: thick;
+      border-top-style: inherit;
+      border-left-color:#33ffff ;
+      border-right-color:#99cc33 ;
+      border-bottom-style: inherit;
+       border-radius: 35px;
+       font-size: 18px;
+  font-weight:bold;
+  letter-spacing:8px;
+  color:#fff;
+  
+  }
 
