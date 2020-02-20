@@ -154,6 +154,17 @@ h1{
       
     
 }
+
+h2{
+    color:#cococo;
+    font-family: 'Merriweather', serif;
+    text-align:center;
+    text-transform: uppercase;
+    text-shadow:5px 5px 3px red;
+      
+    
+}
+
 font{
     color:#fff;
     
