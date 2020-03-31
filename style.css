@@ -225,3 +225,10 @@ font{
        
 
 }
+.pmg1:hover{
+                    background-image:url(pay.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #000;
+            font-size: 21px;
+}
