@@ -194,3 +194,34 @@ font{
   color:#fff
     
     }
+.pmg{
+      font-size: 20px;
+      background-color: red;
+      color: yellow;
+       font-weight:bold;
+  letter-spacing:2px;
+   border-style: dotted;
+
+     
+       border-radius: 10px;
+
+
+
+
+
+
+}
+.pmg1{
+
+        font-size: 20px;
+      background-color: red;
+      color: yellow;
+       font-weight:bold;
+  letter-spacing:2px;
+   border-style: dotted;
+
+     
+       border-radius: 10px;
+       
+
+}
