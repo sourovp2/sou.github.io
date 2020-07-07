@@ -18,7 +18,7 @@ body{
 }
 nav{
   background: #0082e6;
-  height: 85px;
+  height: 70px;
   width: 100%;
 }
 label.logo{
@@ -37,8 +37,8 @@ label.logo{
         
 }
 label img{
-          height: 97%;
-          width: 100px;
+          height: 70px;
+          width: 90px;
 
 }
 nav ul{
@@ -47,7 +47,7 @@ nav ul{
 }
 nav ul li{
   display: inline-block;
-  line-height: 80px;
+  line-height: 70px;
   margin: 0 5px;
 }
 nav ul li a{
@@ -58,9 +58,16 @@ nav ul li a{
   border-radius: 3px;
   text-transform: uppercase;
 }
-a.active,a:hover{
+a.active,a.activee,a:hover{
   background: #1b9bff;
   transition: .5s;
+}
+a.activee{
+  background: #1b9bff;
+  background-size: auto;
+  padding: 10px;
+  margin-right: 290px;
+
 }
 .checkbtn{
   font-size: 30px;
@@ -98,6 +105,11 @@ a.active,a:hover{
     transition: all .5s;
   }
   nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav .dl{
     display: block;
     margin: 50px 0;
     line-height: 30px;
@@ -173,6 +185,26 @@ font{
     text-shadow:5px 5px 3px red;
       
 }  
+nav font{
+    color:#fff;
+    line-height: 70px;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+  text-shadow: none;
+   padding:0;
+       font-size: 30px;
+    margin-left: 200px;
+    letter-spacing: 5px;
+     display: inline-block;
+
+   
+    
+    
+    line-height: 10px;
+    
+
+
+}  
 .lkl{
           
     
@@ -232,4 +264,41 @@ font{
             color: #000;
             font-size: 21px;
             color: yellow;
+}
+.loll{
+    color: #fff;
+      text-shadow: none; 
+
+}
+.loll a{
+    color: #fff;
+       text-shadow: none;
+
+}
+section table{
+              background-color: #fff;
+              border-radius: 13px;
+              margin-left: 30%;
+              
+              
+              width: 40%;
+
+
+}
+section table tr td{
+        color: #F1C800;
+         padding-left: 20px;
+
+}
+section table tr th{
+        
+         padding-top: 20px;
+         padding-right: 10px;
+
+}
+section table tr td a{
+        color: #F1C800;
+
+
+
 }
